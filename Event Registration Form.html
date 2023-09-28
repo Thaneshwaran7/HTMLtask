@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        h1{
+            border: 15px black solid;
+            background-color: black;
+            color:white;
+            border-radius:10px 10px 0 0;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            padding:10px;
+            position:relative;
+            top:-22px;
+            left:-2px;
+            right:-10px;
+            width:693px;
+        }
+        body{
+            background-image:linear-gradient(to right,aqua,rgb(170, 31, 170));
+        }
+        form{
+            border:3px white solid;
+            margin:auto;
+            width:50%;
+            background-color:white;
+            border-radius:15px;
+        }
+        button{
+            background-color: rgb(217, 62, 62);
+            color:aliceblue;
+            border: 25px;
+            border-radius:7px;
+            margin:auto;
+            height:50px;
+            width:200px;
+            font-size:larger;
+        }
+        div{
+            margin-left:60px
+        }
+        #event{
+            margin-bottom:4px;
+        }
+        #fname{
+            background-color:lightgrey;
+            border-top-width:0px;
+            border-bottom-width:0px;
+            border-left-width:0px;
+            border-right-width:0px;
+            border-radius:3px;
+            height:30px;
+            width:200px;
+            margin-left: 110px;
+        }
+        #lname{
+            background-color:lightgrey;
+            border-top-width:0px;
+            border-bottom-width:0px;
+            border-left-width:0px;
+            border-right-width:0px;
+            border-radius:3px;
+            height:30px;
+            margin-left: 19px;
+            width:215px;
+        }
+        #move{
+            margin-left:85px;
+            background-color:lightgrey;
+            border-top-width:0px;
+            border-bottom-width:0px;
+            border-left-width:0px;
+            border-right-width:0px;
+            border-radius:3px;
+            height:30px;
+            width:445px;
+        }
+        #email{
+            margin-left:110px;
+            background-color:lightgrey;
+            border-top-width:0px;
+            border-bottom-width:0px;
+            border-left-width:0px;
+            border-right-width:0px;
+            border-radius:3px;
+            height:30px;
+            width:450px;
+        }
+        #area{
+            margin-left:105px;
+            background-color:lightgrey;
+            border-top-width:0px;
+            border-bottom-width:0px;
+            border-left-width:0px;
+            border-right-width:0px;
+            border-radius:3px;
+            height:30px;
+            width:70px;
+        }
+        #phone{
+            margin-left:105px;
+            background-color:lightgrey;
+            border-top-width:0px;
+            border-bottom-width:0px;
+            border-left-width:0px;
+            border-right-width:0px;
+            border-radius:3px;
+            height:30px;
+            width:265px;
+        }
+        #choose{
+            margin-left:145px;
+            background-color:lightgrey;
+            border-top-width:0px;
+            border-bottom-width:0px;
+            border-left-width:0px;
+            border-right-width:0px;
+            border-radius:3px;
+            height:30px;
+            width:455px;
+            position:relative;
+            top:-19px;
+        }
+        #FI{
+            margin-left:155px;
+            position:relative;
+            top:-15px;
+            color:grey;
+            
+        }
+        #LI{
+            margin-left:150px;
+            position:relative;
+            top:-15px;
+            color:grey;
+        }
+        #AC{
+            margin-left:150px;
+            position:relative;
+            top:3px;
+            color:grey;
+        }
+        #PN{
+            margin-left:110px;
+            position:relative;
+            top:3px;
+            color:grey;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form>        <h1 align= "center">EVENT REGISTRATION FORM</h1>
+        <p><div>
+            Name 
+            <input type="text" name="first name" id="fname"> <input type="text" name="Last Name" id="lname"><br><br>
+           <span id="FI">First Name</span>
+           <span id="LI">Last Name</span>
+            <br> Company 
+            <input type="comments" width="10px" id="move"><br><br><br>
+            <br><br>Email<input type="text" name="email Id" placeholder="example@gmail.com" id="email"><br><br><br>
+            <br>Phone <input type="text" name="Area code" id="area"></textarea> <input type="tetx" name="Phone number" id="phone"><br>
+            <span id="AC">Area Code</span>
+            <span id="PN">Phone Number</span>
+            <br><br><br>Subject<br>
+            <select name="subject" id="choose">
+                <option value=" ">Choose option</option>
+                <option value=" ECE">ECE</option>
+                <option value=" CSE">CSE</option>
+                <option value=" IT">IT</option>
+                <option value=" EEE">EEE</option>
+                <option value=" MECH">MECH</option>
+            </select>
+
+<br><br><br>
+        Are you an existing customer?<br><br>
+        <input type="radio" name="request_type" value="Yes"checked >Yes     
+        <input type="radio" name="request_type" value="No">No<br><br>
+        <br>
+        <button>REGISTER</button>
+        </p></div>
+    </form>
+    
+</body>
+</html>
+
+
+
+
